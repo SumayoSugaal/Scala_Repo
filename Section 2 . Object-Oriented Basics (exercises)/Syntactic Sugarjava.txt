@@ -1,0 +1,6 @@
+val aTuple1: (Int, String) = new Tuple2(2, "Hello Scala")
+val aTuple2: (Int, String) = new Tuple2[Int, String](2, "Hello Scala")
+val aTuple3: (Int, String) = Tuple2(2, "Hello Scala")
+val aTuple4: (Int, String) = Tuple2[Int, String](2, "Hello Scala")
+val aTuple5: (Int, String) = (2, "Hello Scala")
+val aTuple6: (Int, String) = 2 -> "Hello Scala"

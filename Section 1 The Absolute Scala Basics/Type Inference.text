@@ -1,0 +1,7 @@
+def sumRecursive(list:List[Int]):Int={
+  if(list.size > 1) {
+    list.head + sumRecursive(list.drop(1))
+  } else {
+    list.head
+  }
+}

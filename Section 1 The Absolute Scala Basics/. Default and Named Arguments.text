@@ -1,0 +1,7 @@
+case class DeliveryOrder(product: String,
+                           addressToDeliver: String,
+                           amount: Int = 1,
+                           promoCode: Option[String] = None,
+                           byTime: Option[LocalDateTime] = None,
+                           comments: Option[String] = None
+                )

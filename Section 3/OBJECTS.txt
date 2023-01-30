@@ -1,0 +1,6 @@
+class Rectangle(val a:Int, val b:Int)
+object Rectangle {
+  def createValidRectangle(a:Int, b:Int) = new Rectangle(math.max(a, 1), math.max(b, 1))
+}
+val validRectangle = Rectangle.createValidRectangle(3, -10000)
+println("Valid rectangle: " + validRectangle.a + ", " + validRectangle.b) //Prints "Valid rectangle: 3, 1".

@@ -1,0 +1,5 @@
+scala> val age = 18
+age: Int = 18
+
+scala> val age = 19
+age: Int = 19

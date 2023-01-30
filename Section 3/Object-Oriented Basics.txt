@@ -1,0 +1,9 @@
+class Rational(x: Int, y: Int) {
+  def numer = x
+  def denom = y
+  def add(r: Rational) =
+    new Rational(numer * r.denom + r.numer * denom, denom * r.denom)
+  def mul(r: Rational) = ...
+  ...
+  override def toString = s"$numer/$denom"
+}
